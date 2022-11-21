@@ -294,7 +294,7 @@ const DUMMY_MEALS = const [
     categories: [
       'c8',
     ],
-    title: 'Creamy Indian Chicken Curry',
+    title: 'Creamy Indian Masala Chicken Curry',
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
