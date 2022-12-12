@@ -72,9 +72,9 @@ class MealItem extends StatelessWidget {
     return InkWell(
       onTap: () => selectMeal(context),
       child: Card(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(13)),
         elevation: 4,
-        margin: EdgeInsets.all(10),
+        margin: EdgeInsets.all(8),
         child: Column(
           children: [
             Stack(
@@ -94,13 +94,15 @@ class MealItem extends StatelessWidget {
                 Positioned(
                   bottom: 0,
                   right: 0,
+                  left: 0,
                   child: Container(
                     width: 372,
                     color: Colors.black54,
                     child: Text(
                       title,
+                      textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 20,
                         color: Colors.white,
                       ),
                       softWrap: true,
